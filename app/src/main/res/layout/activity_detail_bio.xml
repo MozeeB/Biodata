@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".DetailBio">
+
+    <TextView
+        android:id="@+id/tv_detail_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Mujiburrohman"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:text="Alamat    :"/>
+    <TextView
+        android:id="@+id/tv_detail_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="100dp"
+        android:textSize="20dp"
+        android:text="Jepara - Jawa Tengah"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umur       :"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"/>
+    <TextView
+        android:id="@+id/tv_detail_umur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email       :"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_detail_email"
+        android:text="Mujiburr741@gmail.com"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="100dp"/>
+
+</RelativeLayout>
